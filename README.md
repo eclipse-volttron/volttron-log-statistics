@@ -5,16 +5,13 @@
 
 The Log Statistics agent periodically reads ".log" files based on the configured interval, computes the size delta from the previous interval and publishes the difference in bytes with a timestamp.  It also publishes the standard deviation and mean of the size delta every 24 hours.  This agent can be useful for detecting unexpected changes to the system which may be an indication of some sort of failure or breach.
 
-## Requires
+## Pre-requisite
 
-* python >= 3.10
-* volttron >= 10.0
-
-## Installation
-
-Before installing, VOLTTRON should be installed and running.  Its virtual environment should be active.
+Before installing this agent, VOLTTRON (>=11.0.0rc0) should be installed and running.  Its virtual environment should be active.
 Information on how to install of the VOLTTRON platform can be found
 [here](https://github.com/eclipse-volttron/volttron-core).
+
+## Installation
 
 Create a directory called `config` and use the change directory command to enter it.
 

@@ -9,7 +9,7 @@ The Log Statistics agent periodically reads ".log" files based on the configured
 
 Before installing this agent, VOLTTRON (>=11.0.0rc0) should be installed and running.  Its virtual environment should be active.
 Information on how to install of the VOLTTRON platform can be found
-[here](https://github.com/eclipse-volttron/volttron-core).
+[here](https://github.com/eclipse-volttron/volttron-core/tree/v10)
 
 ## Installation
 
